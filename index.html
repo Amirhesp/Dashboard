@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> پنل مدیریت| پیشخوان</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+
+          </button>
+          <a class="navbar-brand" href="index.html">پیشخوان مدیریت</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">خانه</a></li>
+            <li><a href="send.html">توزیع نهال </a></li>
+            <li><a href="recive.html">دریافت نهال </a></li>
+            <li><a href="noenahaal.html"> مدیریت نوع نهال </a></li>
+            <li><a href="report.html"> گزارش گیری </a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="login.html">ورود</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+<header id="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10">
+        <h1><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> پیشخوان <small> مدیریت </small> </h1>
+      </div>
+    </div>
+  </div>
+</header>
+<section id="breadcrumb">
+  <div class="container">
+    <ol class="breadcrumb">
+      <li class="active">پیشخوان</li>
+    </ol>
+  </div>
+</section>
+
+
+<section id="main">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="list-group">
+          <a href="#" class="list-group-item active main-color-bg">
+           <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>   فهرست
+          </a>
+          <a href="index.html" class="list-group-item"><span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span> نهال ها <span class="badge">۵۰۰</span></a>
+          <a href="send.html" class="list-group-item"><span class="glyphicon glyphicon-upload" aria-hidden="true"></span> نهال های توزیع شده <span class="badge">۲۴۵</span></a>
+          <a href="recive.html" class="list-group-item"><span class="glyphicon glyphicon-download" aria-hidden="true"></span> نهال های دریافت شده <span class="badge">۱۳۴</span></a>
+          <a href="noenahaal.html" class="list-group-item"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> مدیریت نوع نهال </a>
+          <a href="report.html" class="list-group-item"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> گزارش گیری</a>
+        </div>
+      </div>
+      <div class="col-md-9 col-sm-12 col-xs-12">
+        <!-- website over view -->
+        <div class="panel panel-default" id="panelBody">
+          <div class="panel-heading main-color-bg">
+            <h3 class="panel-title">نهال های موجود </h3>
+          </div>
+          <div class="panel-body">
+            <div class="col-md-3 col-sm-4 col-xs-12">
+              <div class="well dash-box">
+                <h2> اقاقیا </h2>
+                <h2><span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span>۳۴۵</h2>
+                <h5> ریشه دار / گلدانی </h5>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+              <div class="well dash-box">
+                <h2> اقاقیا </h2>
+                <h2><span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span>۳۴۵</h2>
+                <h5> ریشه دار / گلدانی </h5>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+              <div class="well dash-box">
+                <h2> اقاقیا </h2>
+                <h2><span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span>۳۴۵</h2>
+                <h5> ریشه دار / گلدانی </h5>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-12">
+              <div class="well dash-box">
+                <h2> اقاقیا </h2>
+                <h2><span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span>۳۴۵</h2>
+                <h5> ریشه دار / گلدانی </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="navbar-fixed-bottom"  id="footer">
+<p>  copyright Narvan-co , &copy; 2017 </p>
+</footer>
+
+<!-- modals -->
+
+
+<!-- addTree
+<div class="modal fade" id="addTree" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <form>
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"> اضافه کردن نهال </h4>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label> نام نهال </label>
+          <input type="text" class="form-control" placeholder=" نام نهال ">
+        </div>
+        <div class="form-group">
+          <label> نوع نهال </label>
+          <input type="text" class="form-control" placeholder=" نوع نهال ">
+        </div>
+        <div class="form-group">
+          <label> کد نهال </label>
+          <input type="text" class="form-control" placeholder=" کد نهال ">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal"> بستن </button>
+        <button type="submit" class="btn btn-primary"> ذخیره اطلاعات </button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+-->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> پیشخوان | دریافت نهال </title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+          </button>
+          <a class="navbar-brand" href="index.html">پیشخوان مدیریت</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">خانه</a></li>
+            <li><a href="send.html">توزیع نهال </a></li>
+            <li  class="active"><a href="recive.html">دریافت نهال</a></li>
+            <li><a href="noenahaal.html"> مدیریت نوع نهال </a></li>
+            <li><a href="report.html">گزارش گیری</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="login.html">ورود</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+<header id="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10">
+        <h1><span class="glyphicon glyphicon-cog" aria-hidden="true"></span> پیشخوان<small> دریافت نهال </small> </h1>
+      </div>
+      <div class="col-md-2">
+
+      </div>
+    </div>
+  </div>
+</header>
+<section id="breadcrumb">
+  <div class="container">
+    <ol class="breadcrumb">
+      <li><a href="index.html"> پیشخوان مدیریت </a></li>
+      <li class="active"> دریافت نهال </li>
+    </ol>
+  </div>
+</section>
+
+
+<section id="main">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="list-group">
+          <a href="#" class="list-group-item active main-color-bg">
+           <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>   فهرست
+          </a>
+          <a href="index.html" class="list-group-item"><span class="glyphicon glyphicon-tree-deciduous" aria-hidden="true"></span> نهال ها <span class="badge">۵۰۰</span></a>
+          <a href="send.html" class="list-group-item"><span class="glyphicon glyphicon-upload" aria-hidden="true"></span> نهال های توزیع شده <span class="badge">۲۴۵</span></a>
+          <a href="recive.html" class="list-group-item"><span class="glyphicon glyphicon-download" aria-hidden="true"></span> نهال های دریافت شده <span class="badge">۱۳۴</span></a>
+          <a href="noenahaal.html" class="list-group-item"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>مدیریت نوع نهال</a>
+          <a href="report.html" class="list-group-item"><span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span> گزارش گیری</a>
+        </div>
+      </div>
+      <div class="col-md-9">
+        <!-- website over view -->
+        <div class="panel panel-default" id="panelBody">
+          <div class="panel-heading main-color-bg">
+            <h3 class="panel-title"> دریافت نهال  </h3>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <button type="button" id="AddButton" class="btn btn-primary btn-xm main-color-bg" data-toggle="modal" data-target="#myModal">
+              اضافه کردن
+              </button>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <input class="form-control" type="text" placeholder="جستجو...">
+              </div>
+            </div>
+            <br>
+            <table class="table table-striped table-hover">
+              <tr>
+                <th> ردیف </th>
+                <th> شماره حواله </th>
+                <th> عنوان نهال </th>
+                <th> تعداد </th>
+                <th> تاریخ  </th>
+                <th> عملیات </th>
+              </tr>
+              <tr>
+                <td> ۱ </td>
+                <td> ۱۲۳۴۵ </td>
+                <td> اقاقیار </td>
+                <td> ۱۵۴ </td>
+                <td> ۹۶/۷/۱۰ </td>
+                <td> <a class="btn btn-default" href="editRecive.html"> ویرایش </a> <a class="btn btn-danger" href="#"> حذف </a>  </td>
+              </tr>
+              <tr>
+                <td> ۲ </td>
+                <td> ۱۲۳۴۵ </td>
+                <td> اقاقیای </td>
+                <td> ۱۵۴ </td>
+                <td> ۹۶/۷/۱۰ </td>
+                <td> <a class="btn btn-default" href="editRecive.html"> ویرایش </a> <a class="btn btn-danger" href="#"> حذف </a>  </td>
+              </tr>
+              <tr>
+                <td> ۳ </td>
+                <td> ۱۲۳۴۵ </td>
+                <td> اقاقیای </td>
+                <td> ۱۵۴ </td>
+                <td> ۹۶/۷/۱۰ </td>
+                <td> <a class="btn btn-default" href="editRecive.html"> ویرایش </a> <a class="btn btn-danger" href="#"> حذف </a>  </td>
+              </tr>
+              <tr>
+                <td> ۴ </td>
+                <td> ۱۲۳۴۵ </td>
+                <td> اقاقیا </td>
+                <td> ۱۵۴ </td>
+                <td> ۹۶/۷/۱۰ </td>
+                <td> <a class="btn btn-default" href="editRecive.html"> ویرایش </a> <a class="btn btn-danger" href="#"> حذف </a>  </td>
+              </tr>
+              <tr>
+                <td> ۵ </td>
+                <td> ۱۲۳۴۵ </td>
+                <td> اقاقیای </td>
+                <td> ۱۵۴ </td>
+                <td> ۹۶/۷/۱۰ </td>
+                <td> <a class="btn btn-default" href="editRecive.html"> ویرایش </a> <a class="btn btn-danger" href="#"> حذف </a>  </td>
+              </tr>
+            </table>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="navbar-fixed-bottom" id="footer">
+<p>  copyright Narvan-co , &copy; 2017 </p>
+</footer>
+
+<!-- modals -->
+
+
+<!-- addTree -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <form>
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel"> اضافه کردن نهال </h4>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-7">
+              <label for="validationDefault01"> نام نهال </label>
+              <select id="inputState" class="form-control">
+                <option value="1395" selected>اقاقیا</option>
+                <option value="1396">بید مجنون</option>
+                <option value="1397">شفتالو</option>
+                <option value="1398">زردآلو</option>
+                <option value="1399">آلبالو</option>
+                <option value="1400">کاج</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-md-7">
+              <label> تعداد  </label>
+              <input type="text" class="form-control" placeholder=" تعداد ">
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="row">
+              <div class="col-md-2 mb-3">
+                <label for="validationDefault01"> سال </label>
+                <select id="inputState" class="form-control">
+                  <option value="1395" selected>1395</option>
+                  <option value="1396">1396</option>
+                  <option value="1397">1397</option>
+                  <option value="1398">1398</option>
+                  <option value="1399">1399</option>
+                  <option value="1400">1400</option>
+                </select>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationDefault02"> ماه </label>
+                <select id="inputState" class="form-control">
+                  <option value="1" selected>فروردین</option>
+                  <option value="2">اردیبهشت</option>
+                  <option value="3">خرداد</option>
+                  <option value="4">تیر</option>
+                  <option value="5">مرداد</option>
+                  <option value="6">شهریور</option>
+                  <option value="7">مهر</option>
+                  <option value="8">آبان</option>
+                  <option value="9">آذر</option>
+                  <option value="10">دی</option>
+                  <option value="11">بهمن</option>
+                  <option value="12">اسفند</option>
+                </select>
+              </div>
+              <div class="col-md-2 mb-3">
+                <label for="validationDefault02"> روز </label>
+                <select id="inputState" class="form-control">
+                <?php
+                  for ($i=1; $i <= 31; $i++) { ?>
+
+                      <option value="<?php echo $i ?>"><?php echo $i ?></option>
+
+                <?php
+                  }
+                ?>
+                </select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal"> بستن </button>
+        <button type="submit" class="btn btn-primary main-color-bg"> ذخیره اطلاعات </button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
